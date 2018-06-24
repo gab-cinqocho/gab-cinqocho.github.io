@@ -1,38 +1,164 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
 body
 {
-	width: 650px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	font-weight: lighter;
+	color: #454545;
+	line-height: 1.4;
+	background-color: #fcfcfc;
+}
+
+header, section
+{
+	width: 800px;
 	margin: auto;
-	font-size: 112.5%;
-	line-height: 160%;
-	color: #383838;
 }
 
-h1
+h1, h2
 {
-	padding-top: 22px;
-	margin-bottom: 30px;
+	font-weight: normal;
 }
 
-h2
+nav
 {
-	line-height: 120%;
-	margin-top: 25px;
+	text-align: right;
+	font-size: 86%;
+	text-decoration: underline;
+	line-height: 80%;
 }
 
-h4
+mark
 {
-	margin: 0;
+	background-color: black;
+	color: white;
+	padding: 2px 5px;
+	text-decoration: underline;
 }
 
 span
 {
-	font-family: "Courier New";
+	color: #2ea6aa;
 	font-weight: bolder;
+}
+
+.red
+{
+	color: #b52020;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+h1
+{
+	font-size: 210%;
+	margin-top: 18px;
+	margin-bottom: 4px;
+}
+
+aside
+{
+	margin-top: 0;
+}
+
+h2
+{
+	font-size: 160%;
+}
+
+p
+{
+	font-size: 102%;
+}
+
+a
+{
+	color: #1b81ad;
+}
+
+a:visited
+{
+	color: maroon;
+}
+
+.mini
+{
+	font-size: 40%;
+	color: #454545;
+}
+
+.pink
+{
+	color: #e848f9;
+}
+
+.blue
+{
+	color: blue;
+}
+
+.violet
+{
+	color: purple;
+}
+
+img
+{
+	size: 50%;
 }
 
 .citation
 {
-	padding-left: 50px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #383838;
+	font-family: "Courier New";
+	font-weight: bold;
+	padding-left: 40px;
+	font-size: 90%;
+
+}
+
+figure
+{
+	width: 300px;
+	float: left;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+}
+
+figcaption
+{
+	font-size: 70%;
+	margin-top: 10px;
+}
+
+#clear
+{
+	clear: both;
+	padding-top: 10px;
+}
+
+div
+{
+	padding-left: 40px;
+	line-height: 80%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.legende
+{
+	font-size: 70%;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+#logo
+{
+	text-align: center;
 }
