@@ -1,9 +1,38 @@
-#citation
+body
 {
-	padding-left: 40px;
+	width: 650px;
+	margin: auto;
+	font-size: 112.5%;
+	line-height: 160%;
+	color: #383838;
 }
 
-footer
+h1
 {
-	border-top: 1px solid black;
+	padding-top: 22px;
+	margin-bottom: 30px;
+}
+
+h2
+{
+	line-height: 120%;
+	margin-top: 25px;
+}
+
+h4
+{
+	margin: 0;
+}
+
+span
+{
+	font-family: "Courier New";
+	font-weight: bolder;
+}
+
+.citation
+{
+	padding-left: 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #383838;
 }
